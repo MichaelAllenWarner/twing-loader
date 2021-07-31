@@ -12,6 +12,7 @@
     "coverage": "nyc report --reporter=text-lcov | coveralls",
     "prepack": "npm run build"
   },
+  "files": ["dist"],
   "keywords": [
     "twig",
     "twing",
